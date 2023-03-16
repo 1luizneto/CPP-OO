@@ -1,3 +1,0 @@
-C:/Users/luizn/Documents/Repositórios/CPP/L01Q01/cmake-build-debug/CMakeFiles/L01Q01.dir
-C:/Users/luizn/Documents/Repositórios/CPP/L01Q01/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/luizn/Documents/Repositórios/CPP/L01Q01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
