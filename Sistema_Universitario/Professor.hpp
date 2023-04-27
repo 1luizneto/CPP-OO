@@ -7,12 +7,6 @@
 
 #include "Funcionario.hpp"
 
-#include <string>
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
-
 class Professor : public Funcionario
 {
 private:

@@ -4,8 +4,7 @@
 
 #include "Universidade.hpp"
 
-bool Universidade::addFuncionario ( const shared_ptr<Funcionario>& func)
-{
+bool Universidade::addFuncionario ( const shared_ptr<Funcionario>& func){
     for ( const auto& it : this->lista )
         if ( it->getMatricula() == func->getMatricula() )
             return false;
@@ -14,7 +13,7 @@ bool Universidade::addFuncionario ( const shared_ptr<Funcionario>& func)
     return true;
 }
 
-bool Universidade::delFuncionario(int matricula) {
+bool Universidade::delFuncionario (int matricula) {
     for ( auto it = this->lista.begin(); it != this->lista.end(); ++it) {
         if ((*it)->getMatricula() == matricula) {
             this->lista.erase(it);
@@ -24,8 +23,7 @@ bool Universidade::delFuncionario(int matricula) {
     return false;
 }
 
-string Universidade::listarTodosFuncionarios ()
-{
+string Universidade::listarTodosFuncionarios (){
     string funcionarios;
     int posicao{0};
     for (const auto& it : this->lista){

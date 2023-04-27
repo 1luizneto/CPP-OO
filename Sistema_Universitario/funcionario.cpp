@@ -4,7 +4,6 @@
 
 #include "Funcionario.hpp"
 
-
 // Construtores
 Funcionario::Funcionario(const int matricula, const string& nome, const int idade, const double salario)
 {

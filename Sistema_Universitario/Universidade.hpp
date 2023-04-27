@@ -7,12 +7,6 @@
 
 #include "Funcionario.hpp"
 #include <vector>
-#include <string>
-#include <iostream>
-#include <memory>
-#include <algorithm>
-
-using namespace std;
 
 class Universidade : public Funcionario{
 private:

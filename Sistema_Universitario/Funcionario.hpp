@@ -8,7 +8,7 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
-
+#include <memory>
 
 using namespace std ;
 

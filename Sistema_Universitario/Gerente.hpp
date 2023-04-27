@@ -6,11 +6,6 @@
 #define SISTEMA_UNIVERSITARIO_GERENTE_HPP
 
 #include "Funcionario.hpp"
-#include <string>
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
 
 class Gerente : public Funcionario{
 private:
