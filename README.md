@@ -1,2 +1,3 @@
 # CPP
- Exercícios resolvidos em C++ da cadeira de POO
+ Repositório usado para a cadeira de POO em C++
+ 
